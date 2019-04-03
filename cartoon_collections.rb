@@ -19,4 +19,4 @@ def find_the_cheese array
   cheese_match = (array & ["cheddar", "gouda", "camembert"]).first
 end
 
-puts find_the_cheese ["gouda","ham","split pea soup"]
+puts find_the_cheese ["slime","ham","split pea soup"]
