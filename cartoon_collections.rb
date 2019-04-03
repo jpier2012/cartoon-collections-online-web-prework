@@ -17,11 +17,7 @@ end
 def find_the_cheese array
   # the array below is here to help
   cheese_match = array & ["cheddar", "gouda", "camembert"]
-  if cheese_match
-    cheese_match.first
-  else
-    nil
-  end
+  cheese_match.first if cheese_match
 end
 
 puts find_the_cheese ["slime","ham","split pea soup"]
