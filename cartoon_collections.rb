@@ -21,4 +21,4 @@ def find_the_cheese array
   cheese_list.first unless nil
 end
 
-puts find_the_cheese ["ham", "gouda", "cheddar"]
+puts find_the_cheese ["ham", "gouda", "slime"]
