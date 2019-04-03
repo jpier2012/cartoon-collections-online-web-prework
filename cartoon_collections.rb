@@ -17,7 +17,7 @@ end
 def find_the_cheese array
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_list = cheese_types & array
+  cheese_list = array & cheese_types
   cheese_list.first unless nil
 end
 
