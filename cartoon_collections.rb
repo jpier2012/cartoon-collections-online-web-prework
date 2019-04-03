@@ -9,7 +9,7 @@ end
 def long_planeteer_calls array
   if array.any? {|call| call.length > 4}
     true
-  elsif array.select {|call| call.length > 4}
+  elsif array.include? call.length > 3
     false
   end
 end
