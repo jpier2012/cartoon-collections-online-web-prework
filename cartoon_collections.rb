@@ -18,5 +18,3 @@ def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
-
-puts summon_captain_planet %w(dopey sleepy bashful)
