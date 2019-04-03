@@ -18,7 +18,7 @@ def find_the_cheese array
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_list = array & cheese_types
-  cheese_list.first
+  return cheese_list.first
 end
 
 puts find_the_cheese []
